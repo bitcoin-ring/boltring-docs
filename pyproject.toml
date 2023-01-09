@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "boltring_docs"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.7"
 mdformat = "*"
 mkdocs-material = "^9.0.3"
 poethepoet = "*"
