@@ -1,0 +1,26 @@
+site_name: BoltRing Documentation
+site_description: 'Bitcoin Lightning Contactless NFC Payment Ring Documentation'
+copyright: "Copyright &copy; 2023 The Bitcoin BoltRing"
+site_author: 'Titusz Pan'
+site_url: 'https://docs.bolt-ring.com'
+
+# Repository
+repo_name: 'bitcoin-ring/boltring-docs'
+repo_url: 'https://github.com/bitcoin-ring/boltring-docs'
+edit_uri: 'edit/main/docs/'
+
+extra_css:
+  - css/styles.css
+
+theme:
+  name: material
+  language: en
+  favicon: images/favicon.png
+  icon:
+    logo: fontawesome/brands/bitcoin
+  palette:
+    primary: deep orange
+    accent: amber
+
+nav:
+  - Introduction: index.md

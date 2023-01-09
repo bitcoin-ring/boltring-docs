@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "boltring-docs"
+version = "0.1.0"
+description = "BoltRing Documentation"
+authors = ["Titusz Pan <tp@py7.de>"]
+readme = "README.md"
+packages = [{include = "boltring_docs"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mdformat = "*"
+mkdocs-material = "^9.0.3"
+poethepoet = "*"
+
+
+[tool.poe.tasks]
+format-md = { cmd = "mdformat --wrap 100 .", help = "Markdown formating with mdformat" }
+all = ["format-md"]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
