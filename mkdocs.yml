@@ -22,5 +22,13 @@ theme:
     primary: deep orange
     accent: amber
 
+plugins:
+  - search
+  - glightbox
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
 nav:
   - Introduction: index.md
