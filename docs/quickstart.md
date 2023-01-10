@@ -1,34 +1,54 @@
 # BoltRing Quickstart
 
-There are many options for setting up and using your **BoltRing** with varying tradeoffs. In this
-quickstart guide we show you a simple setup using [LNBits](https://lnbits.com/) with the Bolt Card
-extension as a service for your BoltRing. LNBits as a free open-source lightning account system. It
-operates on top of a lightning funding source such as LND.
+There are many options for setting up and using your **BoltRing** with varying tradeoffs regarding
+convenience, security, and features. In this quickstart guide we show you a setup the BoltRing with
+[LNBits](https://lnbits.com/) and the Bolt Card extension. LNBits is a free open-source lightning
+account system.
 
-!!! danger "Security Warning"
+!!! danger "Safety notice"
     In this guide we use a public demo installation of LNbits. This means you are trusting the
-    operators of the service with guarding the satoshis you send to the LNBits wallet. **Don´t be
-    reckless** and use it with caution and only for testing with small amounts.
+    operators of the service with guarding your satoshis. **Don´t be reckless** and use it with
+    caution and only for testing with small amounts.
 
-## Step 0 - Prerequisites
+## Step 0 - What you need
 
 - An existing Lightning Wallet that you can use to fund your LNBits account
 - An Android Mobile Phone with NFC support to provision your BoltRing
-- The NFC UID of your BoltRing (printed on the leaflet that came with your BoltRing)
+- A BoltRing that has not been set up yet (or has been wiped if setup previously)
 
 !!! tip "I don´t have an Android Phone!"
     You will only need the Android Phone for the initial setup of your BoltRing. So you could borrow
     an Android Phone from a friend to do the setup. Another option for iPhone users is the
-    [CoinCorner Wallel](https://www.coincorner.com/). The CoinCorner App supports BoltCard setup on
+    [CoinCorner Wallet](https://www.coincorner.com/). The CoinCorner App supports BoltCard setup on
     both Android and iPhone devices.
 
-!!! tip "I don´t know the NFC UID of my BoltRing!"
-    If you don´t know the UID of your BoltRing you can read it from the device at any time using an
-    NFC enabled device and an app like NFC Tools. See
-    [NFC Tools for Android](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc) or
-    [NFC Tools for iPhone](https://apps.apple.com/de/app/nfc-tools/id1252962749). The
+## Step 1 - Install Bolt Card Creator
 
-## Step 1 - Create an LNBits Wallet
+Install the
+[Bolt Card creator app](https://play.google.com/store/apps/details?id=com.lightningnfcapp)
+
+You will need this app later to write the bolt service configuration to the BoltRing. You will also
+need the NFC UID of your BoltRing for this setup. It should be printed on the leaflet that came with
+your BoltRing.
+
+If you have your UID and you are in a hurry you can skip the next section and continue with step 2.
+
+**Read BoltRing NFC UID**
+
+1. Select the `Advanced` tab at the bottom of the start screen of the Bolt Card Creator App
+1. Select the `Read NFC` tab on the stacked menue
+1. Scan your BoltRing by holding it to the back of your phone
+1. Take note of the UID of your BoltRing
+
+!!! tip "Memorize NFC antenna location"
+    Smartphones have their NFC antenna in defferent places. Ususally it is in the upper third of the
+    back of the phone. While scanning the BoltRing pay attention at what position the app detects
+    the BoltRing. This will give you more confidence when writing the configuration to the BoltRing
+    later on.
+
+![Bold Card App read NFC](images/bolt-card-app-read-nfc.png)
+
+## Step 2 - Create an LNBits Wallet
 
 - Browse to https://legend.lnbits.com/
 - Type a memorable name for your wallet
@@ -42,11 +62,11 @@ operates on top of a lightning funding source such as LND.
 
 ![LNBits Wallet-URL](images/lnbits-wallet-url.png)
 
-## Step 2 - Fund your wallet
+## Step 3 - Fund your wallet
 
 Click the `CREATE INVOICE` button and send some satoshis to your LNbits wallet.
 
-## Step 3 - Install Extension
+## Step 4 - Install Extension
 
 Activate the LNBits Bolt Card Extension for your wallet as follows:
 
@@ -56,7 +76,7 @@ Activate the LNBits Bolt Card Extension for your wallet as follows:
 
 ![LNBits Enable Bolt Cards Extension](images/lnbits-enable-bolt-card-extension.png)
 
-## Step 4 - Create Bolt Card Service
+## Step 5 - Create Bolt Card Service
 
 - Click the orange plus-button on the Bolt Cards Extension screen
 
@@ -73,6 +93,9 @@ On the card creation form:
 
 ![LNBits Bolt Card Form](images/lnbits-bolt-card-form.png)
 
-## Step 5 - Provision your BoltRing
+## Step 6 - Provision your BoltRing
 
-tbd
+To connect your BoltRing with the LNbits Bolt Card service you need to burn the service
+configuration to the BoltRing.
+
+TBD
