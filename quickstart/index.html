@@ -153,33 +153,38 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-0-prerequisites">
-    Step 0 - Prerequisites
+<a class="md-nav__link" href="#step-0-what-you-need">
+    Step 0 - What you need
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-1-create-an-lnbits-wallet">
-    Step 1 - Create an LNBits Wallet
+<a class="md-nav__link" href="#step-1-install-bolt-card-creator">
+    Step 1 - Install Bolt Card Creator
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-2-fund-your-wallet">
-    Step 2 - Fund your wallet
+<a class="md-nav__link" href="#step-2-create-an-lnbits-wallet">
+    Step 2 - Create an LNBits Wallet
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-3-install-extension">
-    Step 3 - Install Extension
+<a class="md-nav__link" href="#step-3-fund-your-wallet">
+    Step 3 - Fund your wallet
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-4-create-bolt-card-service">
-    Step 4 - Create Bolt Card Service
+<a class="md-nav__link" href="#step-4-install-extension">
+    Step 4 - Install Extension
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-5-provision-your-boltring">
-    Step 5 - Provision your BoltRing
+<a class="md-nav__link" href="#step-5-create-bolt-card-service">
+    Step 5 - Create Bolt Card Service
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#step-6-provision-your-boltring">
+    Step 6 - Provision your BoltRing
   </a>
 </li>
 </ul>
@@ -200,33 +205,38 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-0-prerequisites">
-    Step 0 - Prerequisites
+<a class="md-nav__link" href="#step-0-what-you-need">
+    Step 0 - What you need
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-1-create-an-lnbits-wallet">
-    Step 1 - Create an LNBits Wallet
+<a class="md-nav__link" href="#step-1-install-bolt-card-creator">
+    Step 1 - Install Bolt Card Creator
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-2-fund-your-wallet">
-    Step 2 - Fund your wallet
+<a class="md-nav__link" href="#step-2-create-an-lnbits-wallet">
+    Step 2 - Create an LNBits Wallet
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-3-install-extension">
-    Step 3 - Install Extension
+<a class="md-nav__link" href="#step-3-fund-your-wallet">
+    Step 3 - Fund your wallet
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-4-create-bolt-card-service">
-    Step 4 - Create Bolt Card Service
+<a class="md-nav__link" href="#step-4-install-extension">
+    Step 4 - Install Extension
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-5-provision-your-boltring">
-    Step 5 - Provision your BoltRing
+<a class="md-nav__link" href="#step-5-create-bolt-card-service">
+    Step 5 - Create Bolt Card Service
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#step-6-provision-your-boltring">
+    Step 6 - Provision your BoltRing
   </a>
 </li>
 </ul>
@@ -237,37 +247,52 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1 id="boltring-quickstart">BoltRing Quickstart</h1>
-<p>There are many options for setting up and using your <strong>BoltRing</strong> with varying tradeoffs. In this
-quickstart guide we show you a simple setup using <a href="https://lnbits.com/">LNBits</a> with the Bolt Card
-extension as a service for your BoltRing. LNBits as a free open-source lightning account system. It
-operates on top of a lightning funding source such as LND.</p>
+<p>There are many options for setting up and using your <strong>BoltRing</strong> with varying tradeoffs regarding
+convenience, security, and features. In this quickstart guide we show you a setup the BoltRing with
+<a href="https://lnbits.com/">LNBits</a> and the Bolt Card extension. LNBits is a free open-source lightning
+account system.</p>
 <div class="admonition danger">
-<p class="admonition-title">Security Warning</p>
+<p class="admonition-title">Safety notice</p>
 <p>In this guide we use a public demo installation of LNbits. This means you are trusting the
-operators of the service with guarding the satoshis you send to the LNBits wallet. <strong>Don´t be
-reckless</strong> and use it with caution and only for testing with small amounts.</p>
+operators of the service with guarding your satoshis. <strong>Don´t be reckless</strong> and use it with
+caution and only for testing with small amounts.</p>
 </div>
-<h2 id="step-0-prerequisites">Step 0 - Prerequisites</h2>
+<h2 id="step-0-what-you-need">Step 0 - What you need</h2>
 <ul>
 <li>An existing Lightning Wallet that you can use to fund your LNBits account</li>
 <li>An Android Mobile Phone with NFC support to provision your BoltRing</li>
-<li>The NFC UID of your BoltRing (printed on the leaflet that came with your BoltRing)</li>
+<li>A BoltRing that has not been set up yet (or has been wiped if setup previously)</li>
 </ul>
 <div class="admonition tip">
 <p class="admonition-title">I don´t have an Android Phone!</p>
 <p>You will only need the Android Phone for the initial setup of your BoltRing. So you could borrow
 an Android Phone from a friend to do the setup. Another option for iPhone users is the
-<a href="https://www.coincorner.com/">CoinCorner Wallel</a>. The CoinCorner App supports BoltCard setup on
+<a href="https://www.coincorner.com/">CoinCorner Wallet</a>. The CoinCorner App supports BoltCard setup on
 both Android and iPhone devices.</p>
 </div>
+<h2 id="step-1-install-bolt-card-creator">Step 1 - Install Bolt Card Creator</h2>
+<p>Install the
+<a href="https://play.google.com/store/apps/details?id=com.lightningnfcapp">Bolt Card creator app</a></p>
+<p>You will need this app later to write the bolt service configuration to the BoltRing. You will also
+need the NFC UID of your BoltRing for this setup. It should be printed on the leaflet that came with
+your BoltRing.</p>
+<p>If you have your UID and you are in a hurry you can skip the next section and continue with step 2.</p>
+<p><strong>Read BoltRing NFC UID</strong></p>
+<ol>
+<li>Select the <code>Advanced</code> tab at the bottom of the start screen of the Bolt Card Creator App</li>
+<li>Select the <code>Read NFC</code> tab on the stacked menue</li>
+<li>Scan your BoltRing by holding it to the back of your phone</li>
+<li>Take note of the UID of your BoltRing</li>
+</ol>
 <div class="admonition tip">
-<p class="admonition-title">I don´t know the NFC UID of my BoltRing!</p>
-<p>If you don´t know the UID of your BoltRing you can read it from the device at any time using an
-NFC enabled device and an app like NFC Tools. See
-<a href="https://play.google.com/store/apps/details?id=com.wakdev.wdnfc">NFC Tools for Android</a> or
-<a href="https://apps.apple.com/de/app/nfc-tools/id1252962749">NFC Tools for iPhone</a>. The</p>
+<p class="admonition-title">Memorize NFC antenna location</p>
+<p>Smartphones have their NFC antenna in defferent places. Ususally it is in the upper third of the
+back of the phone. While scanning the BoltRing pay attention at what position the app detects
+the BoltRing. This will give you more confidence when writing the configuration to the BoltRing
+later on.</p>
 </div>
-<h2 id="step-1-create-an-lnbits-wallet">Step 1 - Create an LNBits Wallet</h2>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/bolt-card-app-read-nfc.png"><img alt="Bold Card App read NFC" src="../images/bolt-card-app-read-nfc.png"/></a></p>
+<h2 id="step-2-create-an-lnbits-wallet">Step 2 - Create an LNBits Wallet</h2>
 <ul>
 <li>Browse to <a href="https://legend.lnbits.com/">https://legend.lnbits.com/</a></li>
 <li>Type a memorable name for your wallet</li>
@@ -281,9 +306,9 @@ in the browser after creating the wallet IS YOUR PASSWORD/LOGIN. <strong>So make
 Wallet-URL and keep it a secret</strong>.</p>
 </div>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/lnbits-wallet-url.png"><img alt="LNBits Wallet-URL" src="../images/lnbits-wallet-url.png"/></a></p>
-<h2 id="step-2-fund-your-wallet">Step 2 - Fund your wallet</h2>
+<h2 id="step-3-fund-your-wallet">Step 3 - Fund your wallet</h2>
 <p>Click the <code>CREATE INVOICE</code> button and send some satoshis to your LNbits wallet.</p>
-<h2 id="step-3-install-extension">Step 3 - Install Extension</h2>
+<h2 id="step-4-install-extension">Step 4 - Install Extension</h2>
 <p>Activate the LNBits Bolt Card Extension for your wallet as follows:</p>
 <ul>
 <li>Click on <code>Manage Extensions</code> in the left menue</li>
@@ -291,7 +316,7 @@ Wallet-URL and keep it a secret</strong>.</p>
 <li>Click <code>OPEN</code> or the new <code>Bolt Cards</code> item in the left menue</li>
 </ul>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/lnbits-enable-bolt-card-extension.png"><img alt="LNBits Enable Bolt Cards Extension" src="../images/lnbits-enable-bolt-card-extension.png"/></a></p>
-<h2 id="step-4-create-bolt-card-service">Step 4 - Create Bolt Card Service</h2>
+<h2 id="step-5-create-bolt-card-service">Step 5 - Create Bolt Card Service</h2>
 <ul>
 <li>Click the orange plus-button on the Bolt Cards Extension screen</li>
 </ul>
@@ -306,8 +331,10 @@ Wallet-URL and keep it a secret</strong>.</p>
 <li>Click <code>Create Card</code></li>
 </ol>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/lnbits-bolt-card-form.png"><img alt="LNBits Bolt Card Form" src="../images/lnbits-bolt-card-form.png"/></a></p>
-<h2 id="step-5-provision-your-boltring">Step 5 - Provision your BoltRing</h2>
-<p>tbd</p>
+<h2 id="step-6-provision-your-boltring">Step 6 - Provision your BoltRing</h2>
+<p>To connect your BoltRing with the LNbits Bolt Card service you need to burn the service
+configuration to the BoltRing.</p>
+<p>TBD</p>
 </article>
 </div>
 </div>

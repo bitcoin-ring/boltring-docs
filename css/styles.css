@@ -1,1 +1,5 @@
-
+.noborder, .noborder p{
+    border-width: 0 !important;
+    box-shadow: none !important;
+    font-size: .8rem;
+}
