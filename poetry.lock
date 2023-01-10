@@ -164,6 +164,38 @@ tomli = {version = ">=1.1.0", markers = "python_version < \"3.11\""}
 typing-extensions = {version = ">=3.7.4", markers = "python_version < \"3.8\""}
 
 [[package]]
+name = "mdformat_admon"
+version = "0.0.1"
+description = "An mdformat plugin for..."
+category = "main"
+optional = false
+python-versions = ">=3.7.2"
+
+[package.dependencies]
+mdformat = ">=0.7.0,<0.8.0"
+mdit-py-plugins = ">=0.3.2"
+
+[package.extras]
+dev = ["pre-commit"]
+test = ["pytest (>=6.0)", "pytest-cov"]
+
+[[package]]
+name = "mdit-py-plugins"
+version = "0.3.3"
+description = "Collection of plugins for markdown-it-py"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+markdown-it-py = ">=1.0.0,<3.0.0"
+
+[package.extras]
+code_style = ["pre-commit"]
+rtd = ["attrs", "myst-parser (>=0.16.1,<0.17.0)", "sphinx-book-theme (>=0.1.0,<0.2.0)"]
+testing = ["coverage", "pytest", "pytest-cov", "pytest-regressions"]
+
+[[package]]
 name = "mdurl"
 version = "0.1.2"
 description = "Markdown URL utilities"
@@ -422,8 +454,8 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.7"
-content-hash = "94fa8769ff9a4709ac2f3cfa9d12b04a90ed0aa045d957573f344c00012796e7"
+python-versions = ">=3.7.2,<4.0"
+content-hash = "5c994771f5fa27999b802e83904970e7399725a25101d7e7f074739bef192978"
 
 [metadata.files]
 beautifulsoup4 = [
@@ -515,6 +547,14 @@ MarkupSafe = [
 mdformat = [
     {file = "mdformat-0.7.16-py3-none-any.whl", hash = "sha256:76398d03baa394f331fb560fd0aed8257cf77b65b1c8146b92d395af16253662"},
     {file = "mdformat-0.7.16.tar.gz", hash = "sha256:99b105033207d2ab70ba1ced8e07327ed4ef1e0a6bc1c7c00207ea73ab502782"},
+]
+mdformat_admon = [
+    {file = "mdformat_admon-0.0.1-py3-none-any.whl", hash = "sha256:3dc0524a0a99568e294f2f8837f6c3cdf042f562533e0d0d865215895ddaa5e6"},
+    {file = "mdformat_admon-0.0.1.tar.gz", hash = "sha256:934677c3b436d645a672ac78f8d697c62097b48c9bd6d81d2af6f03bcfdbbd37"},
+]
+mdit-py-plugins = [
+    {file = "mdit-py-plugins-0.3.3.tar.gz", hash = "sha256:5cfd7e7ac582a594e23ba6546a2f406e94e42eb33ae596d0734781261c251260"},
+    {file = "mdit_py_plugins-0.3.3-py3-none-any.whl", hash = "sha256:36d08a29def19ec43acdcd8ba471d3ebab132e7879d442760d963f19913e04b9"},
 ]
 mdurl = [
     {file = "mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"},

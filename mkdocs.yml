@@ -29,6 +29,13 @@ plugins:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.magiclink
+  - abbr
 
 nav:
   - Introduction: index.md
+  - Quickstart: quickstart.md

@@ -7,11 +7,12 @@ readme = "README.md"
 packages = [{include = "boltring_docs"}]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.7.2,<4.0"
 mdformat = "*"
 mkdocs-material = "^9.0.3"
 poethepoet = "*"
 mkdocs-glightbox = "^0.3.1"
+mdformat_admon = "^0.0.1"
 
 
 [tool.poe.tasks]
