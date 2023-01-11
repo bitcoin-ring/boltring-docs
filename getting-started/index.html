@@ -7,11 +7,12 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Bitcoin Lightning Contactless NFC Payment Ring Documentation" name="description"/>
 <meta content="Titusz Pan" name="author"/>
-<link href="https://docs.bolt-ring.com/quickstart/" rel="canonical"/>
+<link href="https://docs.bolt-ring.com/getting-started/" rel="canonical"/>
 <link href=".." rel="prev"/>
+<link href="../lnbits/" rel="next"/>
 <link href="../images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.0.3" name="generator"/>
-<title>Quickstart - BoltRing Documentation</title>
+<title>Getting Started - BoltRing Documentation</title>
 <link href="../assets/stylesheets/main.6b71719e.min.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -36,7 +37,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#boltring-quickstart">
+<a class="md-skip" href="#getting-started-with-your-boltring">
           Skip to content
         </a>
 </div>
@@ -60,7 +61,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Quickstart
+              Getting Started
             
           </span>
 </div>
@@ -140,11 +141,11 @@
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
 <label class="md-nav__link md-nav__link--active" for="__toc">
-          Quickstart
+          Getting Started
           <span class="md-nav__icon md-icon"></span>
 </label>
 <a class="md-nav__link md-nav__link--active" href="./">
-        Quickstart
+        Getting Started
       </a>
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
 <label class="md-nav__title" for="__toc">
@@ -153,39 +154,29 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-0-requirements">
-    Step 0 - Requirements
+<a class="md-nav__link" href="#boltring-setup-options">
+    BoltRing Setup Options
   </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#step-1-install-bolt-card-creator">
-    Step 1 - Install Bolt Card Creator
-  </a>
+</ul>
+</nav>
 </li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_3" tabindex="0">
+          Setup Guides
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Setup Guides" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          Setup Guides
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-2-create-an-lnbits-wallet">
-    Step 2 - Create an LNBits Wallet
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#step-3-fund-your-wallet">
-    Step 3 - Fund your wallet
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#step-4-install-extension">
-    Step 4 - Install Extension
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#step-5-create-bolt-card-service">
-    Step 5 - Create Bolt Card Service
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#step-6-boltring-setup">
-    Step 6 - BoltRing Setup
-  </a>
+<a class="md-nav__link" href="../lnbits/">
+        LNBits
+      </a>
 </li>
 </ul>
 </nav>
@@ -205,38 +196,8 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-0-requirements">
-    Step 0 - Requirements
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#step-1-install-bolt-card-creator">
-    Step 1 - Install Bolt Card Creator
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#step-2-create-an-lnbits-wallet">
-    Step 2 - Create an LNBits Wallet
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#step-3-fund-your-wallet">
-    Step 3 - Fund your wallet
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#step-4-install-extension">
-    Step 4 - Install Extension
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#step-5-create-bolt-card-service">
-    Step 5 - Create Bolt Card Service
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#step-6-boltring-setup">
-    Step 6 - BoltRing Setup
+<a class="md-nav__link" href="#boltring-setup-options">
+    BoltRing Setup Options
   </a>
 </li>
 </ul>
@@ -246,134 +207,94 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="boltring-quickstart">BoltRing Quickstart</h1>
+<h1 id="getting-started-with-your-boltring">Getting started with your BoltRing</h1>
 <p>There are many options for setting up and using your <strong>BoltRing</strong>, with varying tradeoffs regarding
-convenience, security, and features. This guide shows you how to set up the BoltRing with
-<a href="https://lnbits.com/">LNBits</a> and the Bolt Card extension. LNBits is a free, open-source lightning
-account system.</p>
-<div class="admonition danger">
-<p class="admonition-title">Safety notice</p>
-<p>In this guide, we use a public demo installation of LNbits, which means you must trust the
-service operators to guard your satoshis. <strong>Don´t be reckless</strong>; use it with caution and only
-for testing with small amounts.</p>
-</div>
-<h2 id="step-0-requirements">Step 0 - Requirements</h2>
-<ul>
-<li>An existing Lightning Wallet that you can use to fund your LNBits account</li>
-<li>An Android Mobile Phone with NFC support to provision your BoltRing</li>
-<li>A BoltRing that has not been set up yet (or has been wiped)</li>
-</ul>
-<div class="admonition tip">
-<p class="admonition-title">I don´t have an Android Phone!</p>
-<p>You will only need the Android Phone for the initial setup of your BoltRing. So you could borrow
-an Android Phone from a friend to do the setup. Another option for iPhone users is the
-<a href="https://www.coincorner.com/">CoinCorner Wallet</a>. The CoinCorner App supports BoltCard setup on
-both Android and iPhone devices.</p>
-</div>
-<h2 id="step-1-install-bolt-card-creator">Step 1 - Install Bolt Card Creator</h2>
-<p>Install the
-<a href="https://play.google.com/store/apps/details?id=com.lightningnfcapp">Bolt Card creator app</a></p>
-<p>You will need this app later to write the bolt service configuration to the BoltRing. You will also
-need the NFC UID of your BoltRing for this set-up. You can find it on the leaflet that came with
-your BoltRing.</p>
-<p>If you have your UID and are in a hurry, you can skip the next section and continue with step 2.</p>
-<p><strong>Read BoltRing NFC UID</strong></p>
-<ol>
-<li>Select the <code>Advanced</code> tab at the bottom of the start screen of the Bolt Card Creator App</li>
-<li>Select the <code>Read NFC</code> tab on the stacked menu</li>
-<li>Scan your BoltRing by holding it to the back of your phone</li>
-<li>Take note of the UID of your BoltRing</li>
-</ol>
-<div class="admonition tip">
-<p class="admonition-title">Memorize the NFC antenna location</p>
-<p>Smartphones have their NFC antenna in different places. Usually, it is in the upper third of the
-back of the phone. While scanning the BoltRing, pay attention to the position the app detects
-the BoltRing. Knowing the antenna position will give you more confidence when writing the
-configuration to the BoltRing later.</p>
-</div>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/bolt-card-app-read-nfc.png"><img alt="Bold Card App read NFC" src="../images/bolt-card-app-read-nfc.png"/></a></p>
-<h2 id="step-2-create-an-lnbits-wallet">Step 2 - Create an LNBits Wallet</h2>
-<div class="admonition tip">
-<p class="admonition-title">Do these steps from a PC</p>
-<p>The guide assumes you create your LMBits wallet from a desktop PC.</p>
-</div>
-<ul>
-<li>Browse to <a href="https://legend.lnbits.com/">https://legend.lnbits.com/</a></li>
-<li>Type a memorable name for your wallet</li>
-<li>Click <code>ADD A NEW WALLET</code></li>
-<li>Take note of your Wallet-URL</li>
-</ul>
-<div class="admonition danger">
-<p class="admonition-title">Secure your Wallet-URL</p>
-<p>The LNBits wallet you created does not have a password-protected login. The <strong>Wallet-URL</strong> shown
-in the browser after completing the setup IS YOUR PASSWORD/LOGIN. <strong>So please make a backup of
-the full Wallet-URL and keep it a secret</strong>.</p>
-</div>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/lnbits-wallet-url.png"><img alt="LNBits Wallet-URL" src="../images/lnbits-wallet-url.png"/></a></p>
-<h2 id="step-3-fund-your-wallet">Step 3 - Fund your wallet</h2>
-<p>Click the <code>CREATE INVOICE</code> button and send some satoshis to your LNbits wallet.</p>
-<h2 id="step-4-install-extension">Step 4 - Install Extension</h2>
-<p>Activate the LNBits Bolt Card Extension for your wallet as follows:</p>
-<ul>
-<li>Click on <code>Manage Extensions</code> in the left menu</li>
-<li>Click <code>ENABLE</code> on the Bolt Cards tile</li>
-<li>Click <code>OPEN</code> or the new <code>Bolt Cards</code> item in the left menu</li>
-</ul>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/lnbits-enable-bolt-card-extension.png"><img alt="LNBits Enable Bolt Cards Extension" src="../images/lnbits-enable-bolt-card-extension.png"/></a></p>
-<h2 id="step-5-create-bolt-card-service">Step 5 - Create Bolt Card Service</h2>
-<ul>
-<li>Click the orange <code>plus</code> button on the Bolt Cards Extension screen</li>
-</ul>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/lnbits-create-bolt-card.png"><img alt="LNBits Create Bolt Card" src="../images/lnbits-create-bolt-card.png"/></a></p>
-<p>On the card creation form:</p>
-<ol>
-<li>Select the LNBits wallet you created before</li>
-<li>Set a limit of satoshis per transaction (for example, 50000)</li>
-<li>Set a limit of satoshis per day (for example, 300000)</li>
-<li>Type a memorable name for your BoltRing</li>
-<li>Enter the NFC UID of your BoltRing</li>
-<li>Click <code>CREATE CARD</code></li>
-</ol>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/lnbits-bolt-card-form.png"><img alt="LNBits Bolt Card Form" src="../images/lnbits-bolt-card-form.png"/></a></p>
-<p>After clicking <code>CREATE CARD</code>, you should see the card service created. Click the QR Code in the
-first column of the listview to show the QR code you need in the next step.</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/lnbits-bolt-card-list.png"><img alt="LNBits Bolt Card List" src="../images/lnbits-bolt-card-list.png"/></a></p>
-<div class="admonition noborder">
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/lnbits-create-card-qr.png"><img align="right" alt="LNBits Bolt Card Create QR Code" src="../images/lnbits-create-card-qr.png" width="40%"/></a>
-After clicking the QR code symbol, you should see this card creation modal.</p>
-<p><strong>Make sure you back up the keys shown below the QR code.</strong> You will need them to reset/wipe
-your BoltRing later. Should LNBits become unavailable, these keys will be the only way to
-recover/reset your BoltRing.</p>
-<p>Keep the modal window open; you will need to scan the shown QR code in the next step.</p>
-</div>
-<h2 id="step-6-boltring-setup">Step 6 - BoltRing Setup</h2>
-<p>Go to your mobile phone and start the Bolt Card Creator APP you installed earlier. Place your
-BoltRing on a table, so it is ready to be scanned.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Please make sure you go through these last steps in one go, because the QR code from the
-previous step will be invalidated when you scan it. If you close the App before writing the data
-to the BoltRing, you must start over from <a href="#step-5-create-bolt-card-service">step 5</a> and create
-a new card service entry.</p>
-</div>
-<ol>
-<li>Go to the start screen of the Bolt Card Creator app</li>
-<li>On the start screen, tap <code>SCAN QR CODE</code> and scan the LNbits card creation QR code</li>
-<li>Tap "WRITE CARD NOW" and position your phone´s NFC antenna close above the BoltRing</li>
-<li>Verify that the app <code>Output</code> section shows all the green checkmarks</li>
-</ol>
-<p><strong>Congratulations, your BoltRing is now ready for use.</strong></p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/bolt-card-app-write-card.png"><img alt="Bolt Card App Write Card" src="../images/bolt-card-app-write-card.png"/></a></p>
+convenience, security, and features.</p>
+<h2 id="boltring-setup-options">BoltRing Setup Options</h2>
+<table>
+<thead>
+<tr>
+<th>Service</th>
+<th>Custodial</th>
+<th>Open Source</th>
+<th>Exchange</th>
+<th>Level</th>
+<th>Guide</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.coincorner.com/">CoinCorner</a></td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Easy</td>
+<td><a href="https://www.coincorner.com/TheBoltCardSetup">Guide</a></td>
+</tr>
+<tr>
+<td><a href="https://legend.lnbits.com/">LNBits public</a></td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Easy</td>
+<td>Guide</td>
+</tr>
+<tr>
+<td><a href="https://lnbits.com/">LNBits own</a></td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Hard</td>
+<td>Guide</td>
+</tr>
+<tr>
+<td><a href="https://github.com/boltcard/boltcard">BoltCard server</a></td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Hard</td>
+<td>Guide</td>
+</tr>
+</tbody>
+</table>
 </article>
 </div>
 </div>
 </main>
 <footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Introduction" class="md-footer__link md-footer__link--prev" href=".." rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                  Previous
+                </span>
+                Introduction
+              </div>
+</div>
+</a>
+<a aria-label="Next: LNBits" class="md-footer__link md-footer__link--next" href="../lnbits/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                  Next
+                </span>
+                LNBits
+              </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
 <div class="md-footer-meta md-typeset">
 <div class="md-footer-meta__inner md-grid">
 <div class="md-copyright">
 <div class="md-copyright__highlight">
-      Copyright © 2023 The Bitcoin BoltRing
+      Copyright © 2023 The Bitcoin BoltRing Team
     </div>
   
   
@@ -382,6 +303,17 @@ a new card service entry.</p>
       Material for MkDocs
     </a>
 </div>
+<div class="md-social">
+<a class="md-social__link" href="https://twitter.com/bitcoin_ring" rel="noopener" target="_blank" title="twitter.com">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+</a>
+<a class="md-social__link" href="https://github.com/bitcoin-ring" rel="noopener" target="_blank" title="github.com">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</a>
+<a class="md-social__link" href="https://bitcoin-ring.com" rel="noopener" target="_blank" title="bitcoin-ring.com">
+<svg viewbox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M0 24C0 10.7 10.7 0 24 0h45.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5l-51.6-271c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zm128 440a48 48 0 1 1 96 0 48 48 0 1 1-96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+</a>
+</div>
 </div>
 </div>
 </footer>
@@ -389,7 +321,7 @@ a new card service entry.</p>
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script id="__config" type="application/json">{"base": "..", "features": ["navigation.tracking", "navigation.expand", "navigation.footer"], "search": "../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
 <script src="../assets/javascripts/bundle.ba449ae6.min.js"></script>
 <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
