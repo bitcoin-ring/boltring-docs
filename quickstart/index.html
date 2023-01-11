@@ -153,8 +153,8 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-0-what-you-need">
-    Step 0 - What you need
+<a class="md-nav__link" href="#step-0-requirements">
+    Step 0 - Requirements
   </a>
 </li>
 <li class="md-nav__item">
@@ -183,8 +183,8 @@
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-6-provision-your-boltring">
-    Step 6 - Provision your BoltRing
+<a class="md-nav__link" href="#step-6-boltring-setup">
+    Step 6 - BoltRing Setup
   </a>
 </li>
 </ul>
@@ -205,8 +205,8 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-0-what-you-need">
-    Step 0 - What you need
+<a class="md-nav__link" href="#step-0-requirements">
+    Step 0 - Requirements
   </a>
 </li>
 <li class="md-nav__item">
@@ -235,8 +235,8 @@
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-6-provision-your-boltring">
-    Step 6 - Provision your BoltRing
+<a class="md-nav__link" href="#step-6-boltring-setup">
+    Step 6 - BoltRing Setup
   </a>
 </li>
 </ul>
@@ -248,16 +248,16 @@
 <article class="md-content__inner md-typeset">
 <h1 id="boltring-quickstart">BoltRing Quickstart</h1>
 <p>There are many options for setting up and using your <strong>BoltRing</strong> with varying tradeoffs regarding
-convenience, security, and features. In this quickstart guide we show you a setup the BoltRing with
-<a href="https://lnbits.com/">LNBits</a> and the Bolt Card extension. LNBits is a free open-source lightning
-account system.</p>
+convenience, security, and features. In this quickstart guide we show you how to set up the BoltRing
+with <a href="https://lnbits.com/">LNBits</a> and the Bolt Card extension. LNBits is a free open-source
+lightning account system.</p>
 <div class="admonition danger">
 <p class="admonition-title">Safety notice</p>
 <p>In this guide we use a public demo installation of LNbits. This means you are trusting the
 operators of the service with guarding your satoshis. <strong>Don´t be reckless</strong> and use it with
 caution and only for testing with small amounts.</p>
 </div>
-<h2 id="step-0-what-you-need">Step 0 - What you need</h2>
+<h2 id="step-0-requirements">Step 0 - Requirements</h2>
 <ul>
 <li>An existing Lightning Wallet that you can use to fund your LNBits account</li>
 <li>An Android Mobile Phone with NFC support to provision your BoltRing</li>
@@ -274,8 +274,8 @@ both Android and iPhone devices.</p>
 <p>Install the
 <a href="https://play.google.com/store/apps/details?id=com.lightningnfcapp">Bolt Card creator app</a></p>
 <p>You will need this app later to write the bolt service configuration to the BoltRing. You will also
-need the NFC UID of your BoltRing for this setup. It should be printed on the leaflet that came with
-your BoltRing.</p>
+need the NFC UID of your BoltRing for this set-up. It should be printed on the leaflet that came
+with your BoltRing.</p>
 <p>If you have your UID and you are in a hurry you can skip the next section and continue with step 2.</p>
 <p><strong>Read BoltRing NFC UID</strong></p>
 <ol>
@@ -286,13 +286,19 @@ your BoltRing.</p>
 </ol>
 <div class="admonition tip">
 <p class="admonition-title">Memorize NFC antenna location</p>
-<p>Smartphones have their NFC antenna in defferent places. Ususally it is in the upper third of the
-back of the phone. While scanning the BoltRing pay attention at what position the app detects
+<p>Smartphones have their NFC antenna in different places. Usually it is in the upper third of the
+back of the phone. While scanning the BoltRing, pay attention to the position the app detects
 the BoltRing. This will give you more confidence when writing the configuration to the BoltRing
 later on.</p>
 </div>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/bolt-card-app-read-nfc.png"><img alt="Bold Card App read NFC" src="../images/bolt-card-app-read-nfc.png"/></a></p>
 <h2 id="step-2-create-an-lnbits-wallet">Step 2 - Create an LNBits Wallet</h2>
+<div class="admonition tip">
+<p class="admonition-title">Do these steps from a PC</p>
+<p>The guide assumes you create your LMBits Wallet from a desktop PC. You can also use a mobile
+phone browser but the screens will look different and some steps like scanning QR Codes must be
+done differently when using a mobile device.</p>
+</div>
 <ul>
 <li>Browse to <a href="https://legend.lnbits.com/">https://legend.lnbits.com/</a></li>
 <li>Type a memorable name for your wallet</li>
@@ -323,18 +329,43 @@ Wallet-URL and keep it a secret</strong>.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/lnbits-create-bolt-card.png"><img alt="LNBits Create Bolt Card" src="../images/lnbits-create-bolt-card.png"/></a></p>
 <p>On the card creation form:</p>
 <ol>
-<li>Select the wallet you created in <a href="#step-1-create-an-lnbits-wallet">Step 1</a></li>
+<li>Select the LNBits wallet you created before</li>
 <li>Set a limit of satoshis per transaction (for example 50000)</li>
 <li>Set a limit of satoshis per day (for example 300000)</li>
 <li>Type a memorable name for your BoltRing</li>
 <li>Enter the NFC UID of your BoltRing</li>
-<li>Click <code>Create Card</code></li>
+<li>Click <code>CREATE CARD</code></li>
 </ol>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/lnbits-bolt-card-form.png"><img alt="LNBits Bolt Card Form" src="../images/lnbits-bolt-card-form.png"/></a></p>
-<h2 id="step-6-provision-your-boltring">Step 6 - Provision your BoltRing</h2>
-<p>To connect your BoltRing with the LNbits Bolt Card service you need to burn the service
-configuration to the BoltRing.</p>
-<p>TBD</p>
+<p>After clicking <code>CREATE CARD</code> you should see the card service that has been created. Click the QR
+Code in the first column of the listview to show the QR code you will need in the next step.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/lnbits-bolt-card-list.png"><img alt="LNBits Bolt Card List" src="../images/lnbits-bolt-card-list.png"/></a></p>
+<div class="admonition noborder">
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/lnbits-create-card-qr.png"><img align="right" alt="LNBits Bolt Card Create QR Code" src="../images/lnbits-create-card-qr.png" width="40%"/></a>
+After clicking the QR code symbol you should see this card creation modal.</p>
+<p><strong>Make sure you backup the keys shown below the QR code.</strong> You will need them if you want to
+reset/wipe your BoltRing at a later time. Should LNBits become unavailable these keys will be
+the only way to recover/reset your BoltRing.</p>
+<p>Keep the modal window open as you will need to scan the shown QR code in the next step.</p>
+</div>
+<h2 id="step-6-boltring-setup">Step 6 - BoltRing Setup</h2>
+<p>Go back to you mobile phone and start the Bolt Card Creator APP you installed earlier. Place your
+BoltRing on table, so it is ready to be scanned.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Make sure you go through these last steps in one go, because the QR code from the last step will
+be invalidated when you scan it. If you close the App before writing the data to the BoltRing
+you will have to start over from <a href="#step-5-create-bolt-card-service">step 5</a> and crete a new card
+service entry.</p>
+</div>
+<ol>
+<li>Go to the start screen of the Bolt Card Creator app</li>
+<li>On the start screen tap <code>SCAN QR CODE</code> and scan the LNbits card creation QR code</li>
+<li>Tap "WRITE CARD NOW" and position your phones NFC antenna close above the BoltRing</li>
+<li>Verify the app <code>Output</code> section shows all the green checkmarks</li>
+</ol>
+<p><strong>Congratultions, your BoltRing is now ready for use.</strong></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/bolt-card-app-write-card.png"><img alt="Bolt Card App Write Card" src="../images/bolt-card-app-write-card.png"/></a></p>
 </article>
 </div>
 </div>
