@@ -2,7 +2,7 @@
 
 ![BoltRing Hero](images/bolt-ring-hero.jpg)
 
-**Contactless Paymnents over Bitcoin Lightning**
+**Contactless Payments over Bitcoin Lightning**
 
 Welcome to the world of contactless bitcoin lightning payments with the **BoltRing**! We're excited
 to offer this cutting-edge product to early adopters interested in exploring new technologies and
