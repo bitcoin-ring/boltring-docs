@@ -1,9 +1,7 @@
-# BoltRing Quickstart
+# BoltRing LNBits Setup
 
-There are many options for setting up and using your **BoltRing**, with varying tradeoffs regarding
-convenience, security, and features. This guide shows you how to set up the BoltRing with
-[LNBits](https://lnbits.com/) and the Bolt Card extension. LNBits is a free, open-source lightning
-account system.
+This guide shows you how to set up the BoltRing with [LNBits](https://lnbits.com/) and the Bolt Card
+extension. LNBits is a free, open-source lightning account system.
 
 !!! danger "Safety notice"
     In this guide, we use a public demo installation of LNbits, which means you must trust the

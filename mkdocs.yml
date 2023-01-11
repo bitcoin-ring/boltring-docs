@@ -1,6 +1,6 @@
 site_name: BoltRing Documentation
 site_description: 'Bitcoin Lightning Contactless NFC Payment Ring Documentation'
-copyright: "Copyright &copy; 2023 The Bitcoin BoltRing"
+copyright: "Copyright &copy; 2023 The Bitcoin BoltRing Team"
 site_author: 'Titusz Pan'
 site_url: 'https://docs.bolt-ring.com'
 
@@ -21,7 +21,19 @@ theme:
   palette:
     primary: deep orange
     accent: amber
+  features:
+    - navigation.tracking
+    - navigation.expand
+    - navigation.footer
 
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/bitcoin_ring
+    - icon: fontawesome/brands/github
+      link: https://github.com/bitcoin-ring
+    - icon: fontawesome/solid/cart-shopping
+      link: https://bitcoin-ring.com
 plugins:
   - search
   - glightbox
@@ -38,4 +50,6 @@ markdown_extensions:
 
 nav:
   - Introduction: index.md
-  - Quickstart: quickstart.md
+  - Getting Started: getting-started.md
+  - Setup Guides:
+    - LNBits: lnbits.md
