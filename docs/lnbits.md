@@ -15,15 +15,15 @@ extension. LNBits is a free, open-source lightning account system.
 - A BoltRing that has not been set up yet (or has been wiped)
 
 !!! tip "I don´t have an Android Phone!"
-    You will only need the Android Phone for the initial setup of your BoltRing. So you could borrow
-    an Android Phone from a friend to do the setup. Another option for iPhone users is the
-    [CoinCorner Wallet](https://www.coincorner.com/). The CoinCorner App supports BoltCard setup on
-    both Android and iPhone devices.
+    You will only need the Android Phone for the initial setup of your BoltRing. You could borrow an
+    Android Phone from a friend to do the setup. Another option for iPhone users is the
+    [CoinCorner](https://www.coincorner.com/) service. CoinCorner supports BoltCard setup on both
+    Android and iPhone devices.
 
 ## Step 1 - Install Bolt Card Creator
 
 Install the
-[Bolt Card creator app](https://play.google.com/store/apps/details?id=com.lightningnfcapp)
+[Bolt Card Creator Android App](https://play.google.com/store/apps/details?id=com.lightningnfcapp)
 
 You will need this app later to write the bolt service configuration to the BoltRing. You will also
 need the NFC UID of your BoltRing for this set-up. You can find it on the leaflet that came with
