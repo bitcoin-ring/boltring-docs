@@ -10,7 +10,7 @@ account system.
     operators of the service with guarding your satoshis. **Don´t be reckless** and use it with
     caution and only for testing with small amounts.
 
-## Step 0 - What you need
+## Step 0 - Requirements
 
 - An existing Lightning Wallet that you can use to fund your LNBits account
 - An Android Mobile Phone with NFC support to provision your BoltRing
@@ -50,6 +50,11 @@ If you have your UID and you are in a hurry you can skip the next section and co
 
 ## Step 2 - Create an LNBits Wallet
 
+!!! tip "Do these steps from a PC"
+    The guide assumes you create your LMBits Wallet from a desktop PC. You can also use a mobile
+    phone browser but the screens will look different and some steps like scanning QR Codes must be
+    done differently when using a mobile device.
+
 - Browse to https://legend.lnbits.com/
 - Type a memorable name for your wallet
 - Click "ADD A NEW WALLET"
@@ -84,18 +89,46 @@ Activate the LNBits Bolt Card Extension for your wallet as follows:
 
 On the card creation form:
 
-1. Select the wallet you created in [Step 1](#step-1-create-an-lnbits-wallet)
+1. Select the LNBits wallet you created in [Step 1](#step-1-create-an-lnbits-wallet)
 1. Set a limit of satoshis per transaction (for example 50000)
 1. Set a limit of satoshis per day (for example 300000)
 1. Type a memorable name for your BoltRing
 1. Enter the NFC UID of your BoltRing
-1. Click `Create Card`
+1. Click `CREATE CARD`
 
 ![LNBits Bolt Card Form](images/lnbits-bolt-card-form.png)
 
-## Step 6 - Provision your BoltRing
+After clicking `CREATE CARD` you should see the card service that has been created. Click the QR
+Code in the first column of the listview to show the QR code you will need in the next step.
 
-To connect your BoltRing with the LNbits Bolt Card service you need to burn the service
-configuration to the BoltRing.
+![LNBits Bolt Card List](images/lnbits-bolt-card-list.png)
 
-TBD
+!!! noborder ""
+    ![LNBits Bolt Card Create QR Code](images/lnbits-create-card-qr.png){ align=right width="40%"}
+    After clicking the QR code symbol you should see this card creation modal.
+
+    **Make sure you backup the keys shown below the QR code.** You will need them if you want to
+    reset/wipe your BoltRing at a later time. Should LNBits become unavailable these keys will be
+    the only way to recover/reset your BoltRing.
+
+    Keep the modal window open as you will need to scan the shown QR code in the next step.
+
+## Step 6 - BoltRing Setup
+
+Go back to you mobile phone and start the Bolt Card Creator APP you installed earlier. Place your
+BoltRing on table so it is ready to be scanned.
+
+!!! warning
+    Make sure you go through these last steps in one go, because the QR code from the last step will
+    be invalidated when you scan it. If you close the App before writing the data to the BoltRing
+    you will have to start over from [step 5](#step-5-create-bolt-card-service) and crete a new card
+    service entry.
+
+1. Go to the start screen of the Bolt Card Creator app
+1. On the start screen tap `SCAN QR CODE` and scan the LNbits card creation QR code
+1. Tap "WRITE CARD NOW" and position your phones NFC antenna close above the BoltRing
+1. Verify the app `Output` section shows all the green checkmarks
+
+**Congratultions, your BoltRing is now ready for use.**
+
+![Bolt Card App Write Card](images/bolt-card-app-write-card.png)
