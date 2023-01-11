@@ -1,9 +1,9 @@
 # BoltRing Quickstart
 
 There are many options for setting up and using your **BoltRing** with varying tradeoffs regarding
-convenience, security, and features. In this quickstart guide we show you a setup the BoltRing with
-[LNBits](https://lnbits.com/) and the Bolt Card extension. LNBits is a free open-source lightning
-account system.
+convenience, security, and features. In this quickstart guide we show you how to set up the BoltRing
+with [LNBits](https://lnbits.com/) and the Bolt Card extension. LNBits is a free open-source
+lightning account system.
 
 !!! danger "Safety notice"
     In this guide we use a public demo installation of LNbits. This means you are trusting the
@@ -28,8 +28,8 @@ Install the
 [Bolt Card creator app](https://play.google.com/store/apps/details?id=com.lightningnfcapp)
 
 You will need this app later to write the bolt service configuration to the BoltRing. You will also
-need the NFC UID of your BoltRing for this setup. It should be printed on the leaflet that came with
-your BoltRing.
+need the NFC UID of your BoltRing for this set-up. It should be printed on the leaflet that came
+with your BoltRing.
 
 If you have your UID and you are in a hurry you can skip the next section and continue with step 2.
 
@@ -41,8 +41,8 @@ If you have your UID and you are in a hurry you can skip the next section and co
 1. Take note of the UID of your BoltRing
 
 !!! tip "Memorize NFC antenna location"
-    Smartphones have their NFC antenna in defferent places. Ususally it is in the upper third of the
-    back of the phone. While scanning the BoltRing pay attention at what position the app detects
+    Smartphones have their NFC antenna in different places. Usually it is in the upper third of the
+    back of the phone. While scanning the BoltRing, pay attention to the position the app detects
     the BoltRing. This will give you more confidence when writing the configuration to the BoltRing
     later on.
 
@@ -89,7 +89,7 @@ Activate the LNBits Bolt Card Extension for your wallet as follows:
 
 On the card creation form:
 
-1. Select the LNBits wallet you created in [Step 1](#step-1-create-an-lnbits-wallet)
+1. Select the LNBits wallet you created before
 1. Set a limit of satoshis per transaction (for example 50000)
 1. Set a limit of satoshis per day (for example 300000)
 1. Type a memorable name for your BoltRing
@@ -116,7 +116,7 @@ Code in the first column of the listview to show the QR code you will need in th
 ## Step 6 - BoltRing Setup
 
 Go back to you mobile phone and start the Bolt Card Creator APP you installed earlier. Place your
-BoltRing on table so it is ready to be scanned.
+BoltRing on table, so it is ready to be scanned.
 
 !!! warning
     Make sure you go through these last steps in one go, because the QR code from the last step will
