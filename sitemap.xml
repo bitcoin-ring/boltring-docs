@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.bolt-ring.com/compatibility/</loc>
+         <lastmod>2023-01-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.bolt-ring.com/getting-started/</loc>
          <lastmod>2023-01-11</lastmod>
          <changefreq>daily</changefreq>
