@@ -8,6 +8,6 @@ convenience, security, and features.
 | Service                                                 | Custodial | Open Source | Exchange | Level | Guide                                                |
 | ------------------------------------------------------- | --------- | ----------- | -------- | ----- | ---------------------------------------------------- |
 | [CoinCorner](https://www.coincorner.com/)               | Yes       | No          | Yes      | Easy  | [Guide](https://www.coincorner.com/TheBoltCardSetup) |
-| [LNBits public](https://legend.lnbits.com/)             | Yes       | Yes         | No       | Easy  | Guide                                                |
-| [LNBits own](https://lnbits.com/)                       | No        | Yes         | No       | Hard  | Guide                                                |
+| [LNbits public](https://legend.lnbits.com/)             | Yes       | Yes         | No       | Easy  | Guide                                                |
+| [LNbits own](https://lnbits.com/)                       | No        | Yes         | No       | Hard  | Guide                                                |
 | [BoltCard server](https://github.com/boltcard/boltcard) | No        | Yes         | No       | Hard  | Guide                                                |
