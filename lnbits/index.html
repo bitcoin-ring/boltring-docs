@@ -10,9 +10,9 @@
 <link href="https://docs.bolt-ring.com/lnbits/" rel="canonical"/>
 <link href="../getting-started/" rel="prev"/>
 <link href="../images/favicon.png" rel="icon"/>
-<meta content="mkdocs-1.4.2, mkdocs-material-9.0.3" name="generator"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.0.4" name="generator"/>
 <title>LNbits - BoltRing Documentation</title>
-<link href="../assets/stylesheets/main.6b71719e.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/main.9c788c91.min.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
@@ -191,7 +191,7 @@
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#step-3-fund-your-wallet">
-    Step 3 - Fund your wallet
+    Step 3 - Fund Your Wallet
   </a>
 </li>
 <li class="md-nav__item">
@@ -205,8 +205,8 @@
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-6-boltring-setup">
-    Step 6 - BoltRing Setup
+<a class="md-nav__link" href="#step-6-pairing-your-boltring">
+    Step 6 - Pairing Your BoltRing
   </a>
 </li>
 </ul>
@@ -246,7 +246,7 @@
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#step-3-fund-your-wallet">
-    Step 3 - Fund your wallet
+    Step 3 - Fund Your Wallet
   </a>
 </li>
 <li class="md-nav__item">
@@ -260,8 +260,8 @@
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#step-6-boltring-setup">
-    Step 6 - BoltRing Setup
+<a class="md-nav__link" href="#step-6-pairing-your-boltring">
+    Step 6 - Pairing Your BoltRing
   </a>
 </li>
 </ul>
@@ -272,13 +272,19 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1 id="boltring-lnbits-setup">BoltRing LNbits Setup</h1>
-<p>This guide shows you how to set up the BoltRing with <a href="https://lnbits.com/">LNbits</a> and the Bolt Card
-extension. LNbits is a free, open-source lightning account system.</p>
+<p>LNbits is a free, open-source lightning account system with Bolt Card support. This guide shows you
+how to pair your BoltRing with the <a href="https://lnbits.com/">LNbits</a> Bolt Card extension.</p>
 <div class="admonition danger">
-<p class="admonition-title">Safety notice</p>
-<p>In this guide, we use a public demo installation of LNbits, which means you must trust the
-service operators to guard your satoshis. <strong>Don´t be reckless</strong>; use it with caution and only
+<p class="admonition-title">Security notice</p>
+<p>In this guide, we use a public demo installation of LNbits, which means <strong>you must trust the
+service operators</strong> to guard your satoshis. <strong>Don´t be reckless</strong>; use it with caution and only
 for testing with small amounts.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Use your own LNbits server</p>
+<p>You can also use this guide to pair your BoltRing with your self-hosted LNbits server. But be
+aware that your LNbits server has to be publicly reachable over clearnet. <strong>A default Umbrel
+installation of LNbits will not work!</strong></p>
 </div>
 <h2 id="step-0-requirements">Step 0 - Requirements</h2>
 <ul>
@@ -333,7 +339,7 @@ in the browser after completing the setup IS YOUR PASSWORD/LOGIN. <strong>So ple
 the full Wallet-URL and keep it a secret</strong>.</p>
 </div>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/lnbits-wallet-url.png"><img alt="LNbits Wallet-URL" src="../images/lnbits-wallet-url.png"/></a></p>
-<h2 id="step-3-fund-your-wallet">Step 3 - Fund your wallet</h2>
+<h2 id="step-3-fund-your-wallet">Step 3 - Fund Your Wallet</h2>
 <p>Click the <code>CREATE INVOICE</code> button and send some satoshis to your LNbits wallet.</p>
 <h2 id="step-4-install-extension">Step 4 - Install Extension</h2>
 <p>Activate the LNbits Bolt Card Extension for your wallet as follows:</p>
@@ -369,15 +375,17 @@ your BoltRing later. Should LNbits become unavailable, these keys will be the on
 recover/reset your BoltRing.</p>
 <p>Keep the popup window open; you will need to scan the shown QR code in the next step.</p>
 </div>
-<h2 id="step-6-boltring-setup">Step 6 - BoltRing Setup</h2>
-<p>Go to your mobile phone and start the Bolt Card Creator APP you installed earlier. Place your
-BoltRing on a table, so it is ready to be scanned.</p>
+<h2 id="step-6-pairing-your-boltring">Step 6 - Pairing Your BoltRing</h2>
+<p>Now you will pair you BoltRing with the LNbits BoltCard Extension. Go to your mobile phone and start
+the Bolt Card Creator App you installed earlier. Place your BoltRing on a table, so it is ready to
+be paired.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Please make sure you go through these last steps in one go, because the QR code from the
-previous step will be invalidated when you scan it. If you close the App before writing the data
-to the BoltRing, you must start over from <a href="#step-5-create-bolt-card-service">step 5</a> and create
-a new card service entry.</p>
+previous step will be invalidated when you scan it. <strong>Make sure you hold your phone above the
+BoltRing at the correct position and hold it still and long enough for the pairing to
+complete.</strong> If you close the App before writing the pairing data to the BoltRing, you must start
+over from <a href="#step-5-create-bolt-card-service">step 5</a> and create a new card service entry.</p>
 </div>
 <ol>
 <li>Go to the start screen of the Bolt Card Creator app</li>
