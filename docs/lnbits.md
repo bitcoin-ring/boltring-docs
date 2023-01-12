@@ -1,12 +1,17 @@
 # BoltRing LNbits Setup
 
-This guide shows you how to set up the BoltRing with [LNbits](https://lnbits.com/) and the Bolt Card
-extension. LNbits is a free, open-source lightning account system.
+LNbits is a free, open-source lightning account system with Bolt Card support. This guide shows you
+how to pair your BoltRing with the [LNbits](https://lnbits.com/) Bolt Card extension.
 
-!!! danger "Safety notice"
-    In this guide, we use a public demo installation of LNbits, which means you must trust the
-    service operators to guard your satoshis. **Don´t be reckless**; use it with caution and only
+!!! danger "Security notice"
+    In this guide, we use a public demo installation of LNbits, which means **you must trust the
+    service operators** to guard your satoshis. **Don´t be reckless**; use it with caution and only
     for testing with small amounts.
+
+!!! tip "Use your own LNbits server"
+    You can also use this guide to pair your BoltRing with your self-hosted LNbits server. But be
+    aware that your LNbits server has to be publicly reachable over clearnet. **A default Umbrel
+    installation of LNbits will not work!**
 
 ## Step 0 - Requirements
 
@@ -63,7 +68,7 @@ If you have your UID and are in a hurry, you can skip the next section and conti
 
 ![LNbits Wallet-URL](images/lnbits-wallet-url.png)
 
-## Step 3 - Fund your wallet
+## Step 3 - Fund Your Wallet
 
 Click the `CREATE INVOICE` button and send some satoshis to your LNbits wallet.
 
@@ -109,16 +114,18 @@ first column of the list to show the QR code you need in the next step.
 
     Keep the popup window open; you will need to scan the shown QR code in the next step.
 
-## Step 6 - BoltRing Setup
+## Step 6 - Pairing Your BoltRing
 
-Go to your mobile phone and start the Bolt Card Creator APP you installed earlier. Place your
-BoltRing on a table, so it is ready to be scanned.
+Now you will pair you BoltRing with the LNbits BoltCard Extension. Go to your mobile phone and start
+the Bolt Card Creator App you installed earlier. Place your BoltRing on a table, so it is ready to
+be paired.
 
 !!! warning
     Please make sure you go through these last steps in one go, because the QR code from the
-    previous step will be invalidated when you scan it. If you close the App before writing the data
-    to the BoltRing, you must start over from [step 5](#step-5-create-bolt-card-service) and create
-    a new card service entry.
+    previous step will be invalidated when you scan it. **Make sure you hold your phone above the
+    BoltRing at the correct position and hold it still and long enough for the pairing to
+    complete.** If you close the App before writing the pairing data to the BoltRing, you must start
+    over from [step 5](#step-5-create-bolt-card-service) and create a new card service entry.
 
 1. Go to the start screen of the Bolt Card Creator app
 1. On the start screen, tap `SCAN QR CODE` and scan the LNbits card creation QR code
