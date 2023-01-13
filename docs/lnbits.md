@@ -49,6 +49,11 @@ If you have your UID and are in a hurry, you can skip the next section and conti
     the BoltRing. Knowing the antenna position will give you more confidence when writing the
     configuration to the BoltRing later.
 
+!!! bug "Error: This NFC card has not been formatted."
+    If you get this error, you can use the
+    [NXP TagWriter App](https://play.google.com/store/apps/details?id=com.nxp.nfc.tagwriter) to
+    erase and format your tag as NDEF.
+
 ![Bold Card App read NFC](images/bolt-card-app-read-nfc.png)
 
 ## Step 2 - Create an LNbits Wallet
