@@ -10,8 +10,8 @@ how to pair your BoltRing with the [LNbits](https://lnbits.com/) Bolt Card exten
 
 !!! tip "Use your own LNbits server"
     You can also use this guide to pair your BoltRing with your self-hosted LNbits server. But be
-    aware that your LNbits server has to be publicly reachable over clearnet. **A default Umbrel
-    installation of LNbits will not work!**
+    aware that your LNbits server has to be publicly reachable over clearnet with a https URL. **A
+    default Umbrel installation of LNbits will not work!**
 
 ## Step 0 - Requirements
 
