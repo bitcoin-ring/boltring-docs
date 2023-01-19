@@ -23,7 +23,7 @@ and merchants, including a custodial lightning wallet and fiat exchange services
 
 If you sign up with CoinCorner, you can easily pair your BoltRing with their mobile lightning wallet
 using any NFC-capable iPhone or Android device. The pairing procedure is the same as with the Bolt
-Card.
+Card. Use our referral link to sign up:
 
 [Go with CoinCorner](https://www.coincorner.com/?AffiliateId=126082){.md-button .md-button--primary}
 

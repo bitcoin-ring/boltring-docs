@@ -14,6 +14,7 @@ poethepoet = "*"
 mkdocs-glightbox = "^0.3.1"
 mdformat_admon = "^0.0.1"
 mdformat_tables = "^0.4.1"
+mdformat_footnote = "^0.1.1"
 
 
 [tool.poe.tasks]

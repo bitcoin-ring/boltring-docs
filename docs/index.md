@@ -15,9 +15,10 @@ node or a commercial service provider.
 **A Community Effort**
 
 The capabilities of the BoltRing are the results of contributions from developers and enthusiasts
-all around the world - most notably https://www.boltcard.org/. Using this technology means being
-part of a global community of people who believe in the power of permissionless, decentralized,
-peer-to-peer transactions.
+all around the world - most notably [CoinCorner](https://www.coincorner.com/?AffiliateId=126082)[^1]
+and the [Bolt Card Project](https://www.boltcard.org). Using this technology means being part of a
+global community of people who believe in the power of permissionless, decentralized, peer-to-peer
+transactions.
 
 By adopting this technology, you are not only getting access to cutting-edge payments capabilities,
 but you also get the opportunity to shape and influence the development of the technology while
@@ -48,3 +49,6 @@ you can make convenient and contactless bitcoin payments.
 We hope you enjoy using your new BoltRing, and we look forward to your feedback and suggestions.
 Please do not hesitate to reach out to us if you have any questions or encounter any issues. Let's
 take the first steps in NFC-based bitcoin payments together!
+
+[^1]: The link to CoinCorner is a referal link. Both you and us will receive £10 if you sign up and
+    buy bitcoin for £100 (or more).

@@ -42,10 +42,16 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
+  - footnotes
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.snippets
   - pymdownx.magiclink
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - abbr
 
 nav:
