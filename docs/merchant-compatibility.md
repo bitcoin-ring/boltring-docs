@@ -1,4 +1,4 @@
-# BoltRing compatibility
+# BoltRing Merchant Compatibility
 
 The BoltRing compatible with the open [LUD-17](https://github.com/lnurl/luds/blob/luds/17.md) LNURLW
 standard. The following Wallets and POS systems support accepting BoltRing payments:
