@@ -20,12 +20,12 @@ theme:
     logo: fontawesome/brands/bitcoin
   palette:
     primary: deep orange
-    accent: amber
+    accent: green
   features:
     - navigation.tracking
     - navigation.expand
     - navigation.footer
-
+    - toc.follow
 extra:
   social:
     - icon: fontawesome/brands/twitter
@@ -50,7 +50,6 @@ markdown_extensions:
 
 nav:
   - Introduction: index.md
-  - Compatibility: compatibility.md
   - Getting Started: getting-started.md
   - Setup Guides:
     - LNbits: lnbits.md
