@@ -17,6 +17,8 @@ service for your BoltRing, with varying features and tradeoffs.
 
 ### CoinCorner
 
+[![CoinCorner Icon](images/coincorner-icon.png){ align=right width=30% }](https://www.coincorner.com/?AffiliateId=126082)
+
 For non-technical folks and iPhone users, CoinCorner is probably the easiest way to get started.
 CoinCorner launched the Bolt Card in May 2022. They offer many Bitcoin-related services for users
 and merchants, including a custodial lightning wallet and fiat exchange services.
@@ -29,6 +31,8 @@ Card. Use our referral link to sign up:
 
 ### LNbits
 
+[![LNbits Icon](images/lnbits-icon.png){ align=right width=20% }](/lnbits)
+
 LNbits is a free, open-source lightning account system with many features, including a Bolt Card
 extension. You can use a hosted LNbits service or, provided that you have the necessary technical
 skills, install and operate your own LNbits service.
@@ -36,6 +40,8 @@ skills, install and operate your own LNbits service.
 [LNbits Setup Guide](/lnbits){.md-button .md-button--primary}
 
 ### Bolt Card Server
+
+[![Bolt Card Icon](images/bolt-card-icon.png){ align=right width=20% }](https://github.com/boltcard/boltcard)
 
 Another option is the Bolt Card project on GitHub. The project hosts a GitHub repository with the
 code for a Bolt Card server application that you can operate in conjunction with a Bitcoin Lightning
