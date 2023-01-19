@@ -7,10 +7,12 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Bitcoin Lightning Contactless NFC Payment Ring Documentation" name="description"/>
 <meta content="Titusz Pan" name="author"/>
-<link href="https://docs.bolt-ring.com/compatibility/" rel="canonical"/>
+<link href="https://docs.bolt-ring.com/merchant-compatibility/" rel="canonical"/>
+<link href=".." rel="prev"/>
+<link href="../getting-started/" rel="next"/>
 <link href="../images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.0.5" name="generator"/>
-<title>BoltRing compatibility - BoltRing Documentation</title>
+<title>Merchant Compatibility - BoltRing Documentation</title>
 <link href="../assets/stylesheets/main.558e4712.min.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -59,7 +61,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              BoltRing compatibility
+              Merchant Compatibility
             
           </span>
 </div>
@@ -136,19 +138,57 @@
         Introduction
       </a>
 </li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Merchant Compatibility
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Merchant Compatibility
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#breez-mobile">
+    Breez Mobile
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#btcpay-server">
+    BTCPay Server
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#coincorner-checkout">
+    CoinCorner Checkout
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#lnbits-tpos">
+    LNbits TPoS
+  </a>
+</li>
+</ul>
+</nav>
+</li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../getting-started/">
         Getting Started
       </a>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
-<label aria-expanded="false" class="md-nav__link" for="__nav_3" tabindex="0">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4" id="__nav_4" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_4" tabindex="0">
           Setup Guides
           <span class="md-nav__icon md-icon"></span>
 </label>
 <nav aria-label="Setup Guides" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_3">
+<label class="md-nav__title" for="__nav_4">
 <span class="md-nav__icon md-icon"></span>
           Setup Guides
         </label>
@@ -170,6 +210,32 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#breez-mobile">
+    Breez Mobile
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#btcpay-server">
+    BTCPay Server
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#coincorner-checkout">
+    CoinCorner Checkout
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#lnbits-tpos">
+    LNbits TPoS
+  </a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -177,12 +243,61 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1 id="boltring-compatibility">BoltRing compatibility</h1>
-<p>TBD</p>
+<p>The BoltRing compatible with the open <a href="https://github.com/lnurl/luds/blob/luds/17.md">LUD-17</a> LNURLW
+standard. The following Wallets and POS systems support accepting BoltRing payments:</p>
+<h2 id="breez-mobile">Breez Mobile</h2>
+<p><a href="https://breez.technology"><img align="right" alt="Breez Logo" src="../images/breez-logo.png" width="30%"/></a></p>
+<p>The Breez Mobile app for Android and iPhone offers simple non-custodial Point-of-Sale functionality,
+including the possibility to accept Lightning NFC payments.</p>
+<p><a class="md-button md-button--primary" href="https://breez.technology/mobile">Breez Mobile</a></p>
+<h2 id="btcpay-server">BTCPay Server</h2>
+<p><a href="https://btcpayserver.org/"><img align="right" alt="BTCPay Logo" src="../images/btcpay-logo.svg" width="28%"/></a></p>
+<p>BTCPay Server is a comprehensive self-hosted, open-source Bitcoin payment processor. The LNURL NFC
+plugin supports NFC payments for the included Point-of-Sale app.</p>
+<p><a class="md-button md-button--primary" href="https://btcpayserver.org">BTCPay Server</a></p>
+<h2 id="coincorner-checkout">CoinCorner Checkout</h2>
+<p><a href="https://www.coincorner.com/checkout"><img align="right" alt="CoinCorner Icon" src="../images/coincorner-icon.png" width="30%"/></a></p>
+<p>CoinCorner Checkout is a hosted bitcoin payment solution for merchants and other businesses. Their
+Point-of-Sale mobile app supports Lightning NFC payments.</p>
+<p><a class="md-button md-button--primary" href="https://www.coincorner.com/checkout">CoinCorner Checkout</a></p>
+<h2 id="lnbits-tpos">LNbits TPoS</h2>
+<p><a href="https://github.com/lnbits/lnbits/tree/main/lnbits/extensions/tpos"><img align="right" alt="LNbits Icon" src="../images/lnbits-icon.png" width="20%"/></a></p>
+<p>LNbits is a free, open-source Lightning account system. It comes with the TPoS extension, a
+Point-of-Sales app that supports Lightning NFC payments.</p>
+<p><a class="md-button md-button--primary" href="https://lnbits.com">LNbits TPoS</a></p>
 </article>
 </div>
 </div>
 </main>
 <footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Introduction" class="md-footer__link md-footer__link--prev" href=".." rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                  Previous
+                </span>
+                Introduction
+              </div>
+</div>
+</a>
+<a aria-label="Next: Getting Started" class="md-footer__link md-footer__link--next" href="../getting-started/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                  Next
+                </span>
+                Getting Started
+              </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
 <div class="md-footer-meta md-typeset">
 <div class="md-footer-meta__inner md-grid">
 <div class="md-copyright">
