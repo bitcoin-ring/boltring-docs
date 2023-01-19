@@ -1,3 +1,0 @@
-# BoltRing compatibility
-
-TBD
