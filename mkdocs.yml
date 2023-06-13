@@ -45,7 +45,6 @@ markdown_extensions:
   - footnotes
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.snippets
   - pymdownx.magiclink
   - pymdownx.critic
   - pymdownx.caret
@@ -53,10 +52,14 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - abbr
+  - pymdownx.snippets:
+      auto_append:
+        - includes/definitions.md
 
 nav:
   - Introduction: index.md
   - Merchant Compatibility: merchant-compatibility.md
   - Getting Started: getting-started.md
-  - Setup Guides:
-    - LNbits: lnbits.md
+  - Guides:
+    - LNbits Setup: lnbits.md
+    - BoltRing Reset: boltring-reset.md
