@@ -7,7 +7,7 @@ will not be able to re-configure your device if you don´t have the keys.
 
 ## BoltRing Reset Code
 
-[![Breez Logo](images/bolt-ring-reset-code.png){ align=right width=30% }](https://breez.technology)
+![Breez Logo](images/bolt-ring-reset-code.png){ align=right width=30% }
 
 If you received a pre-configured BoltRing, the reset code is printed on the leaflet that came with
 it. This QR code includes all the data required to reset your BoltRing to factory
