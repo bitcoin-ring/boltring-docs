@@ -1,9 +1,11 @@
 # BoltRing Merchant Compatibility
 
 The BoltRing compatible with the open [LUD-17](https://github.com/lnurl/luds/blob/luds/17.md) LNURLW
-standard. The following Wallets and POS systems support accepting BoltRing payments:
+standard. The following wallets and point-of-sales systems support accepting BoltRing payments:
 
-## Breez Mobile
+## Self-Hosted
+
+### Breez Mobile
 
 [![Breez Logo](images/breez-logo.png){ align=right width=30% }](https://breez.technology)
 
@@ -12,7 +14,7 @@ including the possibility to accept Lightning NFC payments.
 
 [Breez Mobile](https://breez.technology/mobile){.md-button .md-button--primary}
 
-## BTCPay Server
+### BTCPay Server
 
 [![BTCPay Logo](images/btcpay-logo.svg){ align=right width=28% }](https://btcpayserver.org/)
 
@@ -21,7 +23,28 @@ plugin supports NFC payments for the included Point-of-Sale app.
 
 [BTCPay Server](https://btcpayserver.org){.md-button .md-button--primary}
 
-## CoinCorner Checkout
+### LNbits TPoS
+
+[![LNbits Icon](images/lnbits-icon.png){ align=right width=20% }](https://github.com/lnbits/lnbits/tree/main/lnbits/extensions/tpos)
+
+LNbits is a free, open-source Lightning account system. It comes with the TPoS extension, a
+Point-of-Sales app that supports Lightning NFC payments.
+
+[LNbits TPoS](https://lnbits.com){.md-button .md-button--primary}
+
+## Custodial
+
+### Wallet Of Satoshi
+
+[![Wallet of Satoshi Logo](images/wallet-of-satoshi-logo.svg){ align=right width=28% }](https://www.walletofsatoshi.com/)
+
+Wallet of Satoshi is a popular and easy to use custodial wallet for Android and iPhonnes. The latest
+version comes with dedicated point-of-sale functionality for merchants that supports NFC payments.
+
+[Wallet of Satoshi](https://www.walletofsatoshi.com/){.md-button .md-button--primary}
+
+
+### CoinCorner Checkout
 
 [![CoinCorner Icon](images/coincorner-icon.png){ align=right width=30% }](https://www.coincorner.com/checkout)
 
@@ -30,11 +53,5 @@ Point-of-Sale mobile app supports Lightning NFC payments.
 
 [CoinCorner Checkout](https://www.coincorner.com/checkout){.md-button .md-button--primary}
 
-## LNbits TPoS
 
-[![LNbits Icon](images/lnbits-icon.png){ align=right width=20% }](https://github.com/lnbits/lnbits/tree/main/lnbits/extensions/tpos)
 
-LNbits is a free, open-source Lightning account system. It comes with the TPoS extension, a
-Point-of-Sales app that supports Lightning NFC payments.
-
-[LNbits TPoS](https://lnbits.com){.md-button .md-button--primary}
