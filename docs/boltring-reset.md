@@ -26,7 +26,7 @@ defaults. When you read the QR Code you should get data that looks like this:
 }
 ```
 
-## Reset using Bolt Card Creator app
+## Reset with Bolt Card Creator
 
 In addition to the reset code you will also eed an Android Phone with NFC support.
 
