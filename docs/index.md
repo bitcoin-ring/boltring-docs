@@ -15,10 +15,10 @@ node or a commercial service provider.
 **A Community Effort**
 
 The capabilities of the BoltRing are the results of contributions from developers and enthusiasts
-all around the world - most notably [CoinCorner](https://www.coincorner.com/?AffiliateId=126082)[^1]
-and the [Bolt Card Project](https://www.boltcard.org). Using this technology means being part of a
-global community of people who believe in the power of permissionless, decentralized, peer-to-peer
-transactions.
+all around the world - most notably the [Bolt Card Project](https://www.boltcard.org) and 
+[CoinCorner](https://www.coincorner.com/?AffiliateId=126082)[^1]. Using this technology means being 
+part of a global community of people who believe in the power of permissionless, decentralized,
+peer-to-peer transactions.
 
 By adopting this technology, you are not only getting access to cutting-edge payments capabilities,
 but you also get the opportunity to shape and influence the development of the technology while

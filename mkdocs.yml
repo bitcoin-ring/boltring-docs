@@ -61,5 +61,6 @@ nav:
   - Merchant Compatibility: merchant-compatibility.md
   - Getting Started: getting-started.md
   - Guides:
+    - Video Tutorials: video-tutorials.md
     - LNbits Setup: lnbits.md
     - BoltRing Reset: boltring-reset.md
