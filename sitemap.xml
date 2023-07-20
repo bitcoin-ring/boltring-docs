@@ -2,32 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.bolt-ring.com/</loc>
-         <lastmod>2023-06-13</lastmod>
+         <lastmod>2023-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.bolt-ring.com/boltring-app/</loc>
-         <lastmod>2023-06-13</lastmod>
+         <lastmod>2023-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.bolt-ring.com/boltring-reset/</loc>
-         <lastmod>2023-06-13</lastmod>
+         <lastmod>2023-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.bolt-ring.com/getting-started/</loc>
-         <lastmod>2023-06-13</lastmod>
+         <lastmod>2023-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.bolt-ring.com/lnbits/</loc>
-         <lastmod>2023-06-13</lastmod>
+         <lastmod>2023-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.bolt-ring.com/merchant-compatibility/</loc>
-         <lastmod>2023-06-13</lastmod>
+         <lastmod>2023-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.bolt-ring.com/video-tutorials/</loc>
+         <lastmod>2023-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
