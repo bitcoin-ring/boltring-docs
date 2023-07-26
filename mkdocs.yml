@@ -58,8 +58,8 @@ markdown_extensions:
 
 nav:
   - Introduction: index.md
-  - Merchant Compatibility: merchant-compatibility.md
   - Getting Started: getting-started.md
+  - Merchant Compatibility: merchant-compatibility.md
   - Guides:
     - Video Tutorials: video-tutorials.md
     - LNbits Setup: lnbits.md
