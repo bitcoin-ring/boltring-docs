@@ -543,24 +543,18 @@ default Umbrel installation of LNbits will not work!</strong></p>
 <h2 id="step-0-requirements">Step 0 - Requirements</h2>
 <ul>
 <li>An existing Lightning Wallet that you can use to fund your LNbits account</li>
-<li>An Android Mobile Phone with NFC support to provision your <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr></li>
-<li>A <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> that has not been set up yet (or has been wiped)</li>
+<li>A Mobile Phone with NFC support to provision your <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr></li>
+<li>A <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> that has not been set up yet (or has been <a href="/boltring-reset">wiped</a>)</li>
 </ul>
-<div class="admonition tip">
-<p class="admonition-title">I don´t have an Android Phone!</p>
-<p>You will only need the Android Phone for the initial setup of your <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr>. You could borrow an
-Android Phone from a friend to do the setup. Another option for iPhone users is the
-<a href="https://www.coincorner.com/">CoinCorner</a> service. CoinCorner supports BoltCard setup on both
-Android and iPhone devices.</p>
-</div>
 <h2 id="step-1-install-bolt-card-creator">Step 1 - Install Bolt Card Creator</h2>
-<p>Install the
-<a href="https://play.google.com/store/apps/details?id=com.lightningnfcapp">Bolt Card Creator Android App</a></p>
+<p>If you have an <strong>Android</strong> phone install the <a href="https://play.google.com/store/apps/details?id=com.lightningnfcapp">Bolt Card NFC Card Creator App</a> from Google Play.
+If you are using an <strong>iPhone</strong> install the <a href="https://apps.apple.com/us/app/boltcard-nfc-programmer/id6450968873">Boltcard NFC Programmer</a> from the App Store.</p>
 <p>You will need this app later to write the bolt service configuration to the <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr>. You will also
-need the NFC UID of your <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> for this set-up. You can find it on the leaflet that came with
-your <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr>.</p>
-<p>If you have your UID and are in a hurry, you can skip the next section and continue with step 2.</p>
+need the NFC UID of your <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> for this set-up. You can either find it on the front page of the
+leaflet that came with your <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> or you can scan the <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> to get the NFC UID.</p>
+<p>If you already have your UID and are in a hurry, you can skip this section and continue with step 2.</p>
 <p><strong>Read <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> NFC UID</strong></p>
+<p>Using the Bolt Card Creator/Programmer App:</p>
 <ol>
 <li>Select the <code>Advanced</code> tab at the bottom of the start screen of the Bolt Card Creator App</li>
 <li>Select the <code>Read NFC</code> tab on the stacked menu</li>
@@ -587,7 +581,7 @@ erase and format your tag as NDEF.</p>
 <p>The guide assumes you create your LNbits wallet from a desktop PC.</p>
 </div>
 <ul>
-<li>Browse to <a href="https://legend.lnbits.com/">https://legend.lnbits.com/</a></li>
+<li>Browse to <a href="https://legend.lnbits.com/">https://legend.lnbits.com/</a> (or your own LNbits installation)</li>
 <li>Type a memorable name for your wallet</li>
 <li>Click <code>ADD A NEW WALLET</code></li>
 <li>Take note of your Wallet-URL</li>
@@ -643,7 +637,7 @@ be paired.</p>
 <p class="admonition-title">Warning</p>
 <p>Please make sure you go through these last steps in one go, because the QR code from the
 previous step will be invalidated when you scan it. <strong>Make sure you hold your phone above the
-<abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> at the correct position and hold it still and long enough for the pairing to
+<abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> at the correct position and hold it steady and long enough for the pairing to
 complete.</strong> If you close the App before writing the pairing data to the <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr>, you must start
 over from <a href="#step-5-create-bolt-card-service">step 5</a> and create a new card service entry.</p>
 </div>
