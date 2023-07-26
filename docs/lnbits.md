@@ -16,27 +16,23 @@ how to pair your BoltRing with the [LNbits](https://lnbits.com/) Bolt Card exten
 ## Step 0 - Requirements
 
 - An existing Lightning Wallet that you can use to fund your LNbits account
-- An Android Mobile Phone with NFC support to provision your BoltRing
-- A BoltRing that has not been set up yet (or has been wiped)
-
-!!! tip "I don´t have an Android Phone!"
-    You will only need the Android Phone for the initial setup of your BoltRing. You could borrow an
-    Android Phone from a friend to do the setup. Another option for iPhone users is the
-    [CoinCorner](https://www.coincorner.com/) service. CoinCorner supports BoltCard setup on both
-    Android and iPhone devices.
+- A Mobile Phone with NFC support to provision your BoltRing
+- A BoltRing that has not been set up yet (or has been [wiped](/boltring-reset))
 
 ## Step 1 - Install Bolt Card Creator
 
-Install the
-[Bolt Card Creator Android App](https://play.google.com/store/apps/details?id=com.lightningnfcapp)
+If you have an **Android** phone install the [Bolt Card NFC Card Creator App](https://play.google.com/store/apps/details?id=com.lightningnfcapp) from Google Play.
+If you are using an **iPhone** install the [Boltcard NFC Programmer](https://apps.apple.com/us/app/boltcard-nfc-programmer/id6450968873) from the App Store.
 
 You will need this app later to write the bolt service configuration to the BoltRing. You will also
-need the NFC UID of your BoltRing for this set-up. You can find it on the leaflet that came with
-your BoltRing.
+need the NFC UID of your BoltRing for this set-up. You can either find it on the front page of the
+leaflet that came with your BoltRing or you can scan the BoltRing to get the NFC UID.
 
-If you have your UID and are in a hurry, you can skip the next section and continue with step 2.
+If you already have your UID and are in a hurry, you can skip this section and continue with step 2.
 
 **Read BoltRing NFC UID**
+
+Using the Bolt Card Creator/Programmer App:
 
 1. Select the `Advanced` tab at the bottom of the start screen of the Bolt Card Creator App
 1. Select the `Read NFC` tab on the stacked menu
@@ -61,7 +57,7 @@ If you have your UID and are in a hurry, you can skip the next section and conti
 !!! tip "Do these steps from a PC"
     The guide assumes you create your LNbits wallet from a desktop PC.
 
-- Browse to https://legend.lnbits.com/
+- Browse to https://legend.lnbits.com/ (or your own LNbits installation)
 - Type a memorable name for your wallet
 - Click `ADD A NEW WALLET`
 - Take note of your Wallet-URL
@@ -128,7 +124,7 @@ be paired.
 !!! warning
     Please make sure you go through these last steps in one go, because the QR code from the
     previous step will be invalidated when you scan it. **Make sure you hold your phone above the
-    BoltRing at the correct position and hold it still and long enough for the pairing to
+    BoltRing at the correct position and hold it steady and long enough for the pairing to
     complete.** If you close the App before writing the pairing data to the BoltRing, you must start
     over from [step 5](#step-5-create-bolt-card-service) and create a new card service entry.
 
