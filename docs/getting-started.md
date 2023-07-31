@@ -23,6 +23,9 @@ For non-technical folks and iPhone users, CoinCorner is probably the easiest way
 CoinCorner launched the Bolt Card in May 2022. They offer many Bitcoin-related services for users
 and merchants, including a custodial lightning wallet and fiat exchange services.
 
+!!! tip
+    Before creating an account with CoinCorner, make sure their service is available in your [country](https://www.coincorner.com/Countries?AffiliateId=126082)[^1]
+
 If you sign up with CoinCorner, you can easily pair your BoltRing with their mobile lightning wallet
 using any NFC-capable iPhone or Android device. The pairing procedure is the same as with the Bolt
 Card. Use our referral link to sign up:
@@ -50,3 +53,6 @@ extension. You can use a hosted LNbits service or, provided that you have the ne
 skills, install and operate your own LNbits service.
 
 [LNbits Setup Guide](/lnbits){.md-button .md-button--primary}
+
+[^1]: The link to CoinCorner is a referal link. Both you and us will receive £10 if you sign up and
+    buy bitcoin for £100 (or more).
