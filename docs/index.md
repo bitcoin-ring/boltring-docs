@@ -6,11 +6,13 @@
 
 Welcome to the world of contactless bitcoin lightning payments with the **BoltRing**! We're excited
 to offer this cutting-edge product to early adopters interested in exploring new technologies and
-pushing the boundaries of what's possible.
+pushing the boundaries of what's possible. 
 
 The BoltRing is the first Bitcoin DIY contactless payment ring that brings the *tap-to-pay*
 experience to Bitcoin Lightning. You can use the BoltRing with your self-sovereign Bitcoin Lightning
-node or a commercial service provider.
+node or a commercial service provider. 
+
+Get your own BoltRing at https://bitcoin-ring.com.
 
 **A Community Effort**
 
