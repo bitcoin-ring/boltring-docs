@@ -13,7 +13,7 @@ secret keys which you need to reset your BoltRing.
     For pre-configured BoltRings the keys are printed as QR code on the enclosed leaflet.
  
     After you re-configured your BoltRing **you will need the newly set keys** for any further 
-    re-configuration (the original keys will not work any more).
+    re-configuration (the original keys will not work anymore).
 
 
 ## BoltRing Reset Code
