@@ -2,8 +2,18 @@
 
 If your BoltRing is already paired with a lightning wallet, and you want to connect it to another 
 BoltService you first need to reset your BoltRing. Your BoltRing configuration is protected by 
-secret keys which you need to reset your BoltRing. **So take good care of your keys**, because you 
-will not be able to re-configure your device if you don´t have the keys.
+secret keys which you need to reset your BoltRing. 
+
+!!! danger "Backup your Keys"
+
+    **You will not be able to re-configure your device if you don´t have the keys!**
+
+    Keys are initialy set to ZERO at factory settings unless you bought a pre-configured BoltRing.
+    For pre-configured BoltRings the keys are printed as QR code on the enclosed leaflet.
+ 
+    After you re-configured your BoltRing **you will need the newly set keys** for any further 
+    re-configuration (the original keys will not work any more).
+
 
 ## BoltRing Reset Code
 
