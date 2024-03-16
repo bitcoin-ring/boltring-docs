@@ -18,7 +18,7 @@ Get your own BoltRing at https://bitcoin-ring.com.
 
 The capabilities of the BoltRing are the results of contributions from developers and enthusiasts
 all around the world - most notably the [Bolt Card Project](https://www.boltcard.org) and 
-[CoinCorner](https://www.coincorner.com/?AffiliateId=126082)[^1]. Using this technology means being 
+[CoinCorner](https://www.coincorner.com/). Using this technology means being 
 part of a global community of people who believe in the power of permissionless, decentralized,
 peer-to-peer transactions.
 
@@ -51,6 +51,3 @@ you can make convenient and contactless bitcoin payments.
 We hope you enjoy using your new BoltRing, and we look forward to your feedback and suggestions.
 Please do not hesitate to reach out to us if you have any questions or encounter any issues. Let's
 take the first steps in NFC-based bitcoin payments together!
-
-[^1]: The link to CoinCorner is a referal link. Both you and us will receive £10 if you sign up and
-    buy bitcoin for £100 (or more).
