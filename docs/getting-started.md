@@ -7,6 +7,17 @@ BoltRing according to the configured payment rules.
 As always, with Bitcoin, there are different options for setting up, operating, or using a Bolt Card
 service for your BoltRing, with varying features and tradeoffs.
 
+!!! danger "Backup your Keys"
+
+    You need keys to re-configure your BoltRing. **Without keys you cannot reset or reconfigure
+    your device!**
+
+    Keys are initialy set to ZERO at factory settings unless you bought a pre-configured BoltRing.
+    For pre-configured BoltRings the keys are printed as QR code on the enclosed leaflet.
+ 
+    After you re-configured your BoltRing **you will need the newly set keys** for any further 
+    re-configuration (the original keys will not work any more).
+
 ## BoltRing Pairing Options
 
 | Wallet/Service                        | Custodial | Open Source | Exchange | Difficulty |

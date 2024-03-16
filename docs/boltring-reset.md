@@ -6,7 +6,8 @@ secret keys which you need to reset your BoltRing.
 
 !!! danger "Backup your Keys"
 
-    **You will not be able to re-configure your device if you don´t have the keys!**
+    You need keys to re-configure your BoltRing. **Without keys you cannot reset or reconfigure
+    your device!**
 
     Keys are initialy set to ZERO at factory settings unless you bought a pre-configured BoltRing.
     For pre-configured BoltRings the keys are printed as QR code on the enclosed leaflet.
