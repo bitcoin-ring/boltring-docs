@@ -9,7 +9,7 @@ service for your BoltRing, with varying features and tradeoffs.
 
 !!! danger "Backup your Keys"
 
-    You need keys to re-configure your BoltRing. **Without keys you cannot reset or reconfigure
+    You need keys to re-configure your BoltRing. **Without keys you cannot reset or re-configure
     your device!**
 
     Keys are initialy set to ZERO at factory settings unless you bought a pre-configured BoltRing.
