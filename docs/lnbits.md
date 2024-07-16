@@ -137,7 +137,7 @@ be paired.
 
     - Remove any cover or shell from your phone before configuring your BoltRing.
     - Find out where the NFC chip antenna is positioned in your phone (using read tests).
-    - Put the BoltRing on a table and and the phones antenna on top it in a stable position.
+    - Put the BoltRing on a table and the phones antenna on top it in a stable position.
     - Wait a few seconds after writing before moving your phone.
 
     If you are using an **iPhone**, put it on top of the BoltRing as shown on this image before 
