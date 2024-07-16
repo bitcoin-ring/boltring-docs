@@ -553,9 +553,23 @@ defaults. When you read the QR Code you should get data that looks like this:</p
 </code></pre></div>
 <h2 id="reset-with-bolt-card-creator">Reset with Bolt Card Creator</h2>
 <p>In addition to the reset code you will also eed an Android Phone with NFC support.</p>
-<p>Install the
-<a href="https://play.google.com/store/apps/details?id=com.lightningnfcapp">Bolt Card Creator Android App</a>    </p>
+<p>If you have an <strong>Android</strong> phone install the <a href="https://play.google.com/store/apps/details?id=com.lightningnfcapp">Bolt Card NFC Card Creator App</a> from Google Play.
+If you are using an <strong>iPhone</strong> install the <a href="https://apps.apple.com/us/app/boltcard-nfc-programmer/id6450968873">Boltcard NFC Programmer</a> from the App Store.</p>
 <p>Make sure that NFC is enabled on your mobile phone before launching the app.</p>
+<div class="admonition tip">
+<p class="admonition-title">TIPS: NFC chip reset</p>
+<p><a class="glightbox" href="../images/iphone-positioning.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="LNbits NFC Chip Configuration" src="../images/iphone-positioning.jpg" width="60%" /></a></p>
+<p><strong>Important</strong>: If writing to the <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> NFC chip is interruped you may end up with a bricked
+device. Be sure to:</p>
+<ul>
+<li>Remove any cover or shell from your phone before configuring your <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr>.</li>
+<li>Find out where the NFC chip antenna is positioned in your phone (using read tests).</li>
+<li>Put the <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> on a table and and the phones antenna on top it in a stable position.</li>
+<li>Wait a few seconds after writing before moving your phone.</li>
+</ul>
+<p>If you are using an <strong>iPhone</strong>, put it on top of the <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> as shown on this image before 
+hitting the <strong>Reset Card Now</strong> button.</p>
+</div>
 <div class="admonition noborder">
 <p><a class="glightbox" href="../images/bolt-ring-reset-screen.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="LNbits Bolt Card Create QR Code" src="../images/bolt-ring-reset-screen.jpg" width="40%" /></a></p>
 <p><strong><abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> Reset Steps</strong></p>
@@ -563,9 +577,9 @@ defaults. When you read the QR Code you should get data that looks like this:</p
 <li>Select the <code>Reset Keys</code> tab at the bottom of your start screen</li>
 <li>Tap the <code>SCAN QR CODE</code> button to read the reset code (the card details should show your keys
    now)</li>
-<li>Tap the <code>RESET CARD NOW</code> button and position your phone´s NFC antenna close above the
-   <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr></li>
-<li>Hold the device still and wait until app shows green checkmarks that confirm the key resets.</li>
+<li>Position your phones antenna on top of your <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> in a stable way and tap the 
+   <code>RESET CARD NOW</code> button</li>
+<li>Hold the device still and wait until the app confirms that the keys are reset.</li>
 </ol>
 <p><strong>Congratulations your <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> is reset to factory defaults and can now be configured with
 another wallet</strong></p>
@@ -678,5 +692,7 @@ another wallet</strong></p>
       <script src="../assets/javascripts/bundle.dff1b7c8.min.js"></script>
       
     
-  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

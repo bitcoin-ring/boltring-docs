@@ -705,15 +705,30 @@ be paired.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Please make sure you go through these last steps in one go, because the QR code from the
-previous step will be invalidated when you scan it. <strong>Make sure you hold your phone above the
-<abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> at the correct position and hold it steady and long enough for the pairing to
+previous step will be invalidated when you scan it. <strong>Make sure you position your phone above
+the  <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> at the correct place in a steady fashion and long enough for the pairing to 
 complete.</strong> If you close the App before writing the pairing data to the <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr>, you must start
 over from <a href="#step-5-create-bolt-card-service">step 5</a> and create a new card service entry.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">TIPS: NFC chip writing</p>
+<p><a class="glightbox" href="../images/iphone-positioning.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="LNbits NFC Chip Configuration" src="../images/iphone-positioning.jpg" width="60%" /></a></p>
+<p><strong>Important</strong>: If writing to the <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> NFC chip is interruped you may end up with a bricked
+device. Be sure to:</p>
+<ul>
+<li>Remove any cover or shell from your phone before configuring your <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr>.</li>
+<li>Find out where the NFC chip antenna is positioned in your phone (using read tests).</li>
+<li>Put the <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> on a table and and the phones antenna on top it in a stable position.</li>
+<li>Wait a few seconds after writing before moving your phone.</li>
+</ul>
+<p>If you are using an <strong>iPhone</strong>, put it on top of the <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> as shown on this image before 
+hitting the <strong>Write Card Now</strong> button.</p>
 </div>
 <ol>
 <li>Go to the start screen of the Bolt Card Creator app</li>
 <li>On the start screen, tap <code>SCAN QR CODE</code> and scan the LNbits card creation QR code</li>
-<li>Tap "WRITE CARD NOW" and position your phone´s NFC antenna close above the <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr></li>
+<li>Put your phones antenna on top of the <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> in a stable position</li>
+<li>Tap "WRITE CARD NOW"</li>
 <li>Verify that the app <code>Output</code> section shows all the green checkmarks</li>
 </ol>
 <p><strong>Congratulations, your <abbr title="A contactless bitcoin lightning payment ring base on NFC tap &amp; pay technology">BoltRing</abbr> is now ready for use.</strong></p>
@@ -842,5 +857,7 @@ over from <a href="#step-5-create-bolt-card-service">step 5</a> and create a new
       <script src="../assets/javascripts/bundle.dff1b7c8.min.js"></script>
       
     
-  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
