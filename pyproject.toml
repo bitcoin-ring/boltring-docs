@@ -9,12 +9,12 @@ packages = [{include = "boltring_docs"}]
 [tool.poetry.dependencies]
 python = ">=3.7.2,<4.0"
 mdformat = "*"
-mkdocs-material = "^9.0.3"
+mkdocs-material = "*"
 poethepoet = "*"
-mkdocs-glightbox = "^0.3.1"
-mdformat_admon = "^0.0.1"
-mdformat_tables = "^0.4.1"
-mdformat_footnote = "^0.1.1"
+mkdocs-glightbox = "*"
+mdformat_admon = "*"
+mdformat_tables = "*"
+mdformat_footnote = "*"
 
 
 [tool.poe.tasks]

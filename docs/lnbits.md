@@ -123,14 +123,31 @@ be paired.
 
 !!! warning
     Please make sure you go through these last steps in one go, because the QR code from the
-    previous step will be invalidated when you scan it. **Make sure you hold your phone above the
-    BoltRing at the correct position and hold it steady and long enough for the pairing to
+    previous step will be invalidated when you scan it. **Make sure you position your phone above
+    the  BoltRing at the correct place in a steady fashion and long enough for the pairing to 
     complete.** If you close the App before writing the pairing data to the BoltRing, you must start
     over from [step 5](#step-5-create-bolt-card-service) and create a new card service entry.
 
+
+!!! tip "TIPS: NFC chip writing"
+    ![LNbits NFC Chip Configuration](images/iphone-positioning.jpg){ align=right width="60%"}
+
+    **Important**: If writing to the BoltRing NFC chip is interruped you may end up with a bricked
+    device. Be sure to:
+
+    - Remove any cover or shell from your phone before configuring your BoltRing.
+    - Find out where the NFC chip antenna is positioned in your phone (using read tests).
+    - Put the BoltRing on a table and and the phones antenna on top it in a stable position.
+    - Wait a few seconds after writing before moving your phone.
+
+    If you are using an **iPhone**, put it on top of the BoltRing as shown on this image before 
+    hitting the **Write Card Now** button.
+
+
 1. Go to the start screen of the Bolt Card Creator app
 1. On the start screen, tap `SCAN QR CODE` and scan the LNbits card creation QR code
-1. Tap "WRITE CARD NOW" and position your phone´s NFC antenna close above the BoltRing
+1. Put your phones antenna on top of the BoltRing in a stable position
+1. Tap "WRITE CARD NOW"
 1. Verify that the app `Output` section shows all the green checkmarks
 
 **Congratulations, your BoltRing is now ready for use.**

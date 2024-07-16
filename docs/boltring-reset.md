@@ -41,10 +41,24 @@ defaults. When you read the QR Code you should get data that looks like this:
 
 In addition to the reset code you will also eed an Android Phone with NFC support.
 
-Install the
-[Bolt Card Creator Android App](https://play.google.com/store/apps/details?id=com.lightningnfcapp)    
+If you have an **Android** phone install the [Bolt Card NFC Card Creator App](https://play.google.com/store/apps/details?id=com.lightningnfcapp) from Google Play.
+If you are using an **iPhone** install the [Boltcard NFC Programmer](https://apps.apple.com/us/app/boltcard-nfc-programmer/id6450968873) from the App Store.
 
 Make sure that NFC is enabled on your mobile phone before launching the app.
+
+!!! tip "TIPS: NFC chip reset"
+    ![LNbits NFC Chip Configuration](images/iphone-positioning.jpg){ align=right width="60%"}
+
+    **Important**: If writing to the BoltRing NFC chip is interruped you may end up with a bricked
+    device. Be sure to:
+
+    - Remove any cover or shell from your phone before configuring your BoltRing.
+    - Find out where the NFC chip antenna is positioned in your phone (using read tests).
+    - Put the BoltRing on a table and and the phones antenna on top it in a stable position.
+    - Wait a few seconds after writing before moving your phone.
+
+    If you are using an **iPhone**, put it on top of the BoltRing as shown on this image before 
+    hitting the **Reset Card Now** button.
 
 
 !!! noborder ""
@@ -56,9 +70,9 @@ Make sure that NFC is enabled on your mobile phone before launching the app.
     1. Select the `Reset Keys` tab at the bottom of your start screen
     1. Tap the `SCAN QR CODE` button to read the reset code (the card details should show your keys
        now)
-    1. Tap the `RESET CARD NOW` button and position your phone´s NFC antenna close above the
-       BoltRing
-    1. Hold the device still and wait until app shows green checkmarks that confirm the key resets.
+    1. Position your phones antenna on top of your BoltRing in a stable way and tap the 
+       `RESET CARD NOW` button
+    1. Hold the device still and wait until the app confirms that the keys are reset.
 
     **Congratulations your BoltRing is reset to factory defaults and can now be configured with
     another wallet**
