@@ -132,8 +132,8 @@ be paired.
 !!! tip "TIPS: NFC chip writing"
     ![LNbits NFC Chip Configuration](images/iphone-positioning.jpg){ align=right width="60%"}
 
-    **Important**: If writing to the BoltRing NFC chip is interruped you may end up with a bricked
-    device. Be sure to:
+    **Important**: If writing to the BoltRing NFC chip is interruped you may end up with a defect
+    ring. Be sure to:
 
     - Remove any cover or shell from your phone before configuring your BoltRing.
     - Find out where the NFC chip antenna is positioned in your phone (using read tests).
